@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bình Dân Học Vụ Số</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgba(241, 141, 141, 0.993);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 900vh;
+            position: relative;
+        }
+        @keyframes rotateImage {
+            from { transform: translate(-50%, -50%) rotate(0deg); }
+            to { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+        .title1 {
+            width: 70%;
+            text-align: center;
+            font-size: 17px;
+            font-weight: bold;
+            color: rgb(255, 238, 0);
+            background: rgb(2, 38, 245);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            z-index: 2;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+        }
+        h1 {
+            font-size: 28px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            }
+        .flag-container1 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 3;
+        }
+        .flag1 {
+            width: 120px;
+        }
+        .logo-container1 {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 3;
+        }
+        .logo1 {
+            width: 80px; /* Bằng với kích thước cờ */
+        }
+        body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff;
+    }
+    h2 {
+      font-size: 22px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    img {
+      max-width: 60%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+    }
+    .intro {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 25px;
+    }
+    .toc {
+      margin: 20px 0;
+      padding: 10px;
+      background: #f0f0f0;
+      border-left: 4px solid #0066cc;
+    }
+    .toc ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .toc li {
+      margin: 5px 0;
+    }
+    .toc a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .toc a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .footer {
+      font-size: 14px;
+      text-align: center;
+      color: #777;
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+    }
+       
+    /* Khẩu hiệu bên trái */
+    .slogan-left {
+      position: fixed;
+      top: 20%;             /* Vị trí chiều cao trên màn hình */
+      bottom: 20px;        /* kéo gần sát dưới */
+      left: 10px;           /* Sát mép trái */
+      background: red;
+      color: yellow;
+      padding: 10px 15px;
+      font-weight: bold;
+      border-radius: 8px;
+      white-space: pre-line; /* giữ xuống dòng */
+      text-orientation: upright;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    }
+
+    /* Khẩu hiệu bên phải */
+    .slogan-right {
+      position: fixed;
+      top: 20%;             /* Vị trí chiều cao trên màn hình */
+      bottom: 20px;        /* kéo gần sát dưới */
+      right: 10px;          /* Sát mép phải */
+      background: blue;
+      color: white;
+      padding: 10px 15px;
+      font-weight: bold;
+      border-radius: 8px;
+      white-space: pre-line; /* giữ xuống dòng */
+      text-orientation: upright;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body> 
+    </style>
+</head>
+<body>
+    <div class="background-container1"></div>
+    <div class="title1">MÔ HÌNH BÌNH DÂN HỌC VỤ SỐ TÀU 51-11-86</div>
+    <div class="container">
+        <h1>Hướng dẫn cách tích hợp 4 loại giấy tờ/thông tin vào VNeID</h1>
+        <p class="intro">Bài viết hướng dẫn cách thực hiện thủ tục hành chính trực tuyến để tích hợp các giấy tờ, thông tin vào hệ thống VNeID.</p>
+        
+        <div class="toc">
+          <strong>Mục lục</strong>
+          <ul>
+            <li><a href="#loai-giay-to">1. Tích hợp Giấy đăng ký xe (Cà vẹt xe)</a></li>
+            <li><a href="#buoc-thuc-hien">2. Tích hợp Giấy phép lái xe (bằng lái xe)</a></li>
+            <li><a href="#luu-y">3. Tích hợp thẻ BHYT</a></li>
+            <li><a href="#luu-y1">4. Tích hợp thông tin người phụ thuộc</a></li>
+          </ul>
+        </div>
+        
+        <div class="section" id="loai-giay-to">
+          <h2>1. Hướng dẫn cách tích hợp Giấy đăng ký xe (Cà vẹt xe) vào VneID</h2>
+          <p>Bước 1: Đăng nhập vào ứng dụng VNeID</p>
+          <p>Bước 2: Kiểm tra phiên bản của ứng dụng. Lưu ý là để tự tích hợp Giấy đăng ký xe (Cà vẹt xe) vào VNeID thì ứng dụng phải là phiên bản 2.0.8 trở lên.</p>
+          <p>Bước 3: Chọn “Ví giấy tờ”. Sau đó chọn “Tích hợp thông tin”</p>
+          <img src="1.png" alt="Hình minh họa giấy tờ cần tích hợp">
+          <p>Bước 4: Chọn “Tạo mới yêu cầu”</p>
+          <img src="2.png" alt="Hình minh họa giấy tờ cần tích hợp">
+          <p>Bước 5: Chọn “Nhấn vào dấu mũi tên và chọn Giấy đăng ký xe”</p>
+          <img src="5.png" alt="Hình minh họa giấy tờ cần tích hợp">
+          <p>Bước 6: Chọn “Nhập các thông tin tích hợp theo yêu cầu, gồm:<p>
+
+           <p> - Loại phương tiện (Bấm vào dấu mũi tên để chọn loại phương tiện)<p>
+            
+            <p>- Số khung”</p>
+            <p>- Biển số xe (Ví dụ nhập là 59N31234)<p>
+
+            <p>Sau đó chọn vào “Tôi xác nhận các thông tin ở trên là đúng” và chọn “Gửi yêu cầu”<p>
+            <img src="6.png" alt="Hình minh họa giấy tờ cần tích hợp">
+        </div>
+        
+        <div class="section" id="buoc-thuc-hien">
+          <h2>2. Hướng dẫn cách tích hợp Giấy phép lái xe (bằng lái xe) vào VneID</h2>
+          <p>Bước 1: Đăng nhập vào ứng dụng VNeID</p>
+          <p>Bước 2: Kiểm tra phiên bản của ứng dụng. Lưu ý là để tự tích hợp bằng lái xe vào ứng dụng VNeID thì ứng dụng phải là phiên bản 2.0.6 trở lên.</p>
+          <p>Bước 3: Chọn “Ví giấy tờ”. Sau đó chọn “Tích hợp thông tin”</p>
+          <img src="1.png" alt="Hình minh họa giấy tờ cần tích hợp">
+          <p>Bước 4: Chọn “Tạo mới yêu cầu”</p>
+          <img src="2.png" alt="Hình minh họa giấy tờ cần tích hợp">
+          <p>Bước 5: Chọn “Nhấn vào dấu mũi tên và chọn Giấy phép lái xe”</p>
+          <img src="3.png" alt="Hình minh họa giấy tờ cần tích hợp">
+          <p>Bước 6: Chọn “Nhập các thông tin tích hợp theo yêu cầu, gồm:
+
+          </p>- Số giấy phép lái xe.</p>
+            
+        </p>- Hạng giấy phép lái xe.</p>
+            
+        </p>Cuối cùng, nhấn vào “Gửi yêu cầu”</p>
+            <img src="4.png" alt="Hình minh họa giấy tờ cần tích hợp">
+        </div>
+
+        <div class="section" id="luu-y">
+          <h2>3. Hướng dẫn cách tích hợp thẻ BHYT vào VNeID</h2>
+          <p>Bước 1: Đăng nhập vào ứng dụng VNeID</p>
+          <p>Bước 2: Kiểm tra phiên bản của ứng dụng. Lưu ý là để tự tích hợp thẻ BHYT vào ứng dụng VNeID thì ứng dụng phải là phiên bản 2.0.4 trở lên.</p>
+          <p>Bước 3: Chọn “Ví giấy tờ”. Sau đó chọn “Tích hợp thông tin”</p>
+          <img src="1.png" alt="Hình minh họa giấy tờ cần tích hợp">
+          <p>Bước 4: Chọn “Tạo mới yêu cầu”</p>
+          <img src="2.png" alt="Hình minh họa giấy tờ cần tích hợp">
+          <p>Bước 5: Nhấn vào dấu mũi tên và chọn “Thẻ BHYT”</p>
+          <img src="8.png" alt="Hình minh họa giấy tờ cần tích hợp">
+          <p>Bước 6: Nhập số thẻ BHYT
+            
+        </p>Cuối cùng, nhấn vào “Gửi yêu cầu”.</p>
+            <img src="9.png" alt="Hình minh họa giấy tờ cần tích hợp">
+        </div>
+        
+        <div class="section" id="luu-y1">
+            <h2>4. Hướng dẫn cách tích hợp thông tin người phụ thuộc vào VneID</h2>
+            <p>Bước 1: Đăng nhập vào ứng dụng VNeID</p>
+            <p>Bước 2: Kiểm tra phiên bản của ứng dụng. Lưu ý là để tự tích hợp thông tin người phụ thuộc vào ứng dụng VNeID thì ứng dụng phải là phiên bản 2.0.4 trở lên.</p>
+            <p>Bước 3: Chọn “Ví giấy tờ”. Sau đó chọn “Tích hợp thông tin”</p>
+            <img src="1.png" alt="Hình minh họa giấy tờ cần tích hợp">
+            <p>Bước 4: Chọn “Tạo mới yêu cầu”</p>
+            <img src="2.png" alt="Hình minh họa giấy tờ cần tích hợp">
+            <p>Bước 5: Nhấn vào dấu mũi tên để chọn thông tin. Sau đó chọn “người phụ thuộc”</p>
+            <img src="10.png" alt="Hình minh họa giấy tờ cần tích hợp">
+            <p>Bước 6: Nhập tất cả các thông tin theo yêu cầu trên ứng dụng.</p>
+          </p>Cuối cùng, nhấn vào “Gửi yêu cầu”.</p>
+              <img src="14.png" alt="Hình minh họa giấy tờ cần tích hợp">
+          </div>
+        </div>
+      </div>
+     <!-- Khẩu hiệu hai bên -->
+  <div class="slogan-left">BÌNH
+    DÂN
+    HỌC
+    VỤ
+    SỐ</div>
+    
+      <div class="slogan-right">MỞ
+    TRÍ
+    DỰNG
+    TƯƠNG
+    LAI
+    </div>
+    
+
+    </body>
+    <div class="flag-container1">
+        <img src="xahsbdk.gif" class="flag1">
+    </div>
+    <!-- Ảnh logo bên phải -->
+    <div class="logo-container1">
+        <img src="logo.png" class="logo1" alt="Logo1">
+    </div>
+</style>
+</head>
+<body>
+</body>
+</html>
+
+
+
